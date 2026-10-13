@@ -1,0 +1,14 @@
+# Ambiente virtual
+venv/
+.env
+
+# Cache do Python e Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Dados pesados ou intermediários
+data/raw/*
+!data/raw/.gitkeep
+*.parquet
+*.log
